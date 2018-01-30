@@ -1,0 +1,79 @@
+1. NEWTON SECOND LAW
+
+Rumus: ΣF = m*a
+Keterangan:
+ΣF = resultan gaya (Newton)
+m = massa benda (kg)
+a = percepatan benda (m/s2)
+
+Berdasarkan keterangan di atas, buatlah sebuah algoritma / pseudocode untuk menghitung resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!
+
+	STORE “mass” with 600
+	STORE “acceleration” with 2/3
+	SORE “resultant” without any value
+
+	CALCULATE “mass” * “accelaration”
+	SET “resultant” with calculation result
+
+	DISPLAY “resultant”
+
+
+2. TAHUN KABISAT
+
+
+Apa yang kamu ketahui tentang tanggal 29 Februari? Kamu pasti tahu jika suatu tahun memiliki tanggal 29 Februari berarti tahun tersebut merupakan tahun kabisat.
+
+Dalam kalender Gregorian, tahun kabisat memiliki beberapa kriteria yaitu antara lain:
+
+Jika tahun habis di bagi 4 dan tidak habis di bagi 100, dan
+Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+Buatlah algoritma/pseudocode untuk menentukan apakah suatu tahun merupakan tahun kabisat atau bukan!
+
+	IF ("YEAR" mod 4 equal 0 AND mod 100 not equal 0) AND ("YEAR" mod 4 equal 0 AND mod 100 equal 0 AND mod 400 equal 400)
+	   DISPLAY "LEAP YEAR"
+	
+
+3. LAUNDRY DAY
+
+Foxie akan mencuci pakaiannya menggunakan mesin cuci. Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci. Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+
+Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci menggunakan algoritma / pseudocode perulangan!
+
+	STORE "clothes" 0
+	
+	WHILE "clothes" < 20
+	   ADD "clothes" by 1	
+	
+	DISPLAY "washing machine is turn on"
+	
+
+4. PERIKSA KUKU
+
+Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas. Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut, jika tidak guru akan memuji siswa/siswi tersebut.
+
+Buatlah algoritma/pseudocode untuk permasalahan diatas.
+
+	STORE "student" 0
+	
+	WHILE "student" < 40
+	   STORE "nails" to LONG OR SHORT
+	   IF "nails is equal to LONG
+		DISPLAY "Teacher will punish student"
+   	   else
+		DISPLAY "Teacher will praise student"
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
