@@ -46,7 +46,7 @@ console.log('\n');
 console.log('4. Breaking Sentence (yet Again) and Count Each Length');
 var word4 = 'wow JavaScript is so cool';
 var exampleFirstWord4 = word.substring(0, 3);
-var secondWord4 = word.substring(5, 14);
+var secondWord4 = word.substring(4, 14);
 var thirdWord4 = word.substring(15, 17);
 var fourthWord4 = word.substring(18, 20);
 var fifthWord4 = word.substring(21, 25);
