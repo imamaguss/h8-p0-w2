@@ -1,6 +1,6 @@
 var tanggal = 20;
-var bulan = 90;
-var tahun = 1992;
+var bulan = 8;
+var tahun = 1982;
 
 switch(bulan){
   case 1:{console.log(`${tanggal} Januari ${tahun}`); break;}
