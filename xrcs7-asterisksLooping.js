@@ -1,99 +1,83 @@
-console.log('1. Menyusun Barisan Bintang\n');
+// 1. Melakukan Looping Menggunakan While
+// Looping Pertama
+console.log('LOOPING PERRTAMA');
 
-var rows1 = 5;
+var i= 2;
+var jumlah = 20;
 
-while(rows1){
-  console.log('*');
-  rows1 --;
+while(i <= jumlah){
+  console.log(i + ' - I love coding');
+  i+=2;
 }
 
-console.log('\n2. Menyusun Barisan Bintang dengan Nested Looping\n');
+// Looping Kedua
+console.log('LOOPING KEDUA');
 
-var rows = 5;
-var cols = 5;
-var patch = '';
+var i = 20;
+var jumlah = 0;
 
-for(rows; rows > 0; rows--){
-  for(cols; cols > 0; cols--){
-    patch += '*';
+while(i >jumlah){
+  console.log(i + ' I will become Full Stack Developer');
+  i-=2;
+}
+
+console.log('\n');
+// 2. Melakukan Looping menggunakan For
+// Looping Pertama
+console.log('LOOPING PERTAMA');
+
+for(var i = 1; i <= 20; i++ ){
+  console.log(i + ' - I love coding');
+}
+
+// Looping Kedua
+console.log('LOOPING KEDUA');
+
+for(var i = 20; i > 0; i--){
+  console.log(i + ' - I will become fullstack developer');
+}
+
+console.log('\n');
+// 3. Angka Ganjil dan Genap
+// Problem 1 & 2
+var counter = 1;
+var jumlah = 100;
+
+while(counter <= jumlah){
+  if(counter % 2){
+    console.log(counter + ' GANJIL');
+    } else{
+      console.log(counter + ' GENAP');
+    }
+    counter++;
+}
+
+console.log('\n');
+// kelipatan 3
+var counter = 1;
+var jumlah = 100;
+for(counter; counter <= jumlah; counter+=2){
+    if(counter % 3 === 0){
+      console.log(counter + ' kelipatan 3');
+    }
+}
+
+console.log(' ');
+// kelipatan 6
+var counter = 1;
+var jumlah = 100;
+for(counter; counter <= jumlah; counter += 5){
+  if(counter % 6 === 0){
+    console.log(counter + ' kelipatan 6');
   }
-  console.log(patch);
 }
 
-console.log('\n3. Menyusun Barisan Bintang dengan Nested Looping\n' );
-
-var rows = 5;
-
-for(var i=1; i <= rows; i++){
-var patch = '';
-  for(var j=0; j<i; j++){
-    patch += '*'
+console.log(' ');
+// kelipatan 10
+var counter = 1;
+var jumlah = 100;
+for(counter; counter <= jumlah; counter += 9){
+  if(counter % 10 === 0){
+    console.log(counter + ' kelipatan 10');
   }
-  console.log(patch);
-}
-console.log('1. Menyusun Barisan Bintang\n');
-
-var rows1 = 5;
-
-while(rows1){
-  console.log('*');
-  rows1 --;
-}
-
-console.log('\n2. Menyusun Barisan Bintang dengan Nested Looping\n');
-
-var rows = 5;
-var cols = 5;
-var patch = '';
-
-for(rows; rows > 0; rows--){
-  for(cols; cols > 0; cols--){
-    patch += '*';
-  }
-  console.log(patch);
-}
-
-console.log('\n3. Menyusun Barisan Bintang dengan Nested Looping\n' );
-
-var rows = 5;
-
-for(var i=1; i <= rows; i++){
-var patch = '';
-  for(var j=0; j<i; j++){
-    patch += '*'
-  }
-  console.log(patch);
-}
-console.log('1. Menyusun Barisan Bintang\n');
-
-var rows1 = 5;
-
-while(rows1){
-  console.log('*');
-  rows1 --;
-}
-
-console.log('\n2. Menyusun Barisan Bintang dengan Nested Looping\n');
-
-var rows = 5;
-var cols = 5;
-var patch = '';
-
-for(rows; rows > 0; rows--){
-  for(cols; cols > 0; cols--){
-    patch += '*';
-  }
-  console.log(patch);
-}
-
-console.log('\n3. Menyusun Barisan Bintang dengan Nested Looping\n' );
-
-var rows = 5;
-
-for(var i=1; i <= rows; i++){
-var patch = '';
-  for(var j=0; j<i; j++){
-    patch += '*'
-  }
-  console.log(patch);
 }
