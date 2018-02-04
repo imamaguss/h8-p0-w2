@@ -1,14 +1,10 @@
-console.log("==============");
-console.log("== PROXYTIA ==");
-console.log("==============");
-
 var nama = "Bento";
 var peran = "Tabib";
 
 if(nama === "" && peran === ""){
-  console.log("Nama harus diisi!!");
+  console.log("Nama dan peran harus diisi!!");
 
-} else if(nama !== "" && peran == ""){
+} else if(nama !== "" && peran === ""){
   console.log(`Hallo ${nama}, Pilih peranmu untuk memulai game!!`);
 } else if(nama !== "" && peran === "Ksatria"){
   console.log(`Selamat datang di Dunia Proxytia, ${nama}

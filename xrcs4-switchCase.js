@@ -1,3 +1,10 @@
+console.log('-----------------------------');
+console.log('- Excercise 4 - Switch Case -');
+console.log('-----------------------------');
+console.log('\n');
+console.log('بِسْمِ اللهِ الرَّحْمنِ الرَّحِيمِ');
+console.log('\n');
+
 var tanggal = 20;
 var bulan = 8;
 var tahun = 1982;
@@ -17,3 +24,7 @@ switch(bulan){
   case 12:{console.log(`${tanggal} Desember ${tahun}`); break;}
   default:{console.log(`${tanggal} bln ${tahun}`);}
 }
+
+console.log('\n');
+
+console.log('الحمد لله رب العالمين');
