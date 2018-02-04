@@ -1,83 +1,34 @@
-// 1. Melakukan Looping Menggunakan While
-// Looping Pertama
-console.log('LOOPING PERRTAMA');
-
-var i= 2;
-var jumlah = 20;
-
-while(i <= jumlah){
-  console.log(i + ' - I love coding');
-  i+=2;
+console.log('1. Menyusun Barisan Bintang\n');
+//menggunakan WHILE
+var rows1W = 5;
+for(rows1W; rows1W > 0; rows1W--){
+  console.log('*');
 }
 
-// Looping Kedua
-console.log('LOOPING KEDUA');
+*/
+console.log('\n2. Menyusun Barisan Bintang dengan Nested Looping\n');
 
-var i = 20;
-var jumlah = 0;
+var rows2 = 5;
+var cols2 = 5;
+var patch2 = '';
 
-while(i >jumlah){
-  console.log(i + ' I will become Full Stack Developer');
-  i-=2;
-}
-
-console.log('\n');
-// 2. Melakukan Looping menggunakan For
-// Looping Pertama
-console.log('LOOPING PERTAMA');
-
-for(var i = 1; i <= 20; i++ ){
-  console.log(i + ' - I love coding');
-}
-
-// Looping Kedua
-console.log('LOOPING KEDUA');
-
-for(var i = 20; i > 0; i--){
-  console.log(i + ' - I will become fullstack developer');
-}
-
-console.log('\n');
-// 3. Angka Ganjil dan Genap
-// Problem 1 & 2
-var counter = 1;
-var jumlah = 100;
-
-while(counter <= jumlah){
-  if(counter % 2){
-    console.log(counter + ' GANJIL');
-    } else{
-      console.log(counter + ' GENAP');
-    }
-    counter++;
-}
-
-console.log('\n');
-// kelipatan 3
-var counter = 1;
-var jumlah = 100;
-for(counter; counter <= jumlah; counter+=2){
-    if(counter % 3 === 0){
-      console.log(counter + ' kelipatan 3');
-    }
-}
-
-console.log(' ');
-// kelipatan 6
-var counter = 1;
-var jumlah = 100;
-for(counter; counter <= jumlah; counter += 5){
-  if(counter % 6 === 0){
-    console.log(counter + ' kelipatan 6');
+for(rows2; rows2 > 0; rows2--){
+  for(cols2; cols2 > 0; cols2--){
+    patch2 += '*';
   }
+  console.log(patch2);
 }
 
-console.log(' ');
-// kelipatan 10
-var counter = 1;
-var jumlah = 100;
-for(counter; counter <= jumlah; counter += 9){
-  if(counter % 10 === 0){
-    console.log(counter + ' kelipatan 10');
+console.log('\n3. Menyusun Barisan Bintang dengan Nested Looping\n' );
+
+var rows3 = 5;
+
+for(var i = 1; i <= rows3; i++){
+var patch3 = '';
+  for(var j = 0; j < rows3 ; j++){
+    if (j < i) {
+      patch3 += '*'
+    }
   }
+  console.log(patch3);
 }
